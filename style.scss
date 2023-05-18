@@ -1,0 +1,110 @@
+$primary-color: #376281;
+$title-color: #116CAD;
+$subtitle-color: #376281;
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-color: $primary-color;
+    color: #FFFEFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        margin-bottom: 6px;
+        font-size: 24px;
+    }
+
+    p {
+        margin-top: 0;
+        font-size: 12px;
+    }
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin: 1% auto -3% 5%;
+
+    h2 {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    h3 {
+        color: $title-color;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+}
+
+p {
+    padding: 0 5%;
+    font-size: 12px;
+}
+
+.profile-area,
+.experience-area {
+    margin: 2% 15% 5% 15%;
+
+    .block {
+        .subtitle {
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+
+            .ball {
+                width: 10px;
+                height: 10px;
+                border-radius: 5px;
+                background-color: $primary-color;
+            }
+
+            h4 {
+                margin: 0px 3%;
+            }
+        }
+
+        h5 {
+            margin-top: 1px;
+            color: $subtitle-color;
+            padding: 0 5%;
+        }
+
+    }
+}
+
+.skill-area {
+    background-color: $primary-color;
+    color: white;
+    padding: 1% 15%;
+
+    .title {
+        justify-content: center;
+        margin: 1% 0 -3% 0;
+
+        h2 {
+            margin-right: 5%;
+        }
+
+        h3 {
+
+            color: white;
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+}

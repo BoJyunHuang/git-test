@@ -1,0 +1,92 @@
+body {
+  margin: 0 auto;
+}
+
+header {
+  background-color: #376281;
+  color: #FFFEFE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+header h1 {
+  margin-bottom: 6px;
+  font-size: 24px;
+}
+header p {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin: 1% auto -3% 5%;
+}
+.title h2 {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.title h3 {
+  color: #116CAD;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+p {
+  padding: 0 5%;
+  font-size: 12px;
+}
+
+.profile-area,
+.experience-area {
+  margin: 2% 15% 5% 15%;
+}
+.profile-area .block .subtitle,
+.experience-area .block .subtitle {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.profile-area .block .subtitle .ball,
+.experience-area .block .subtitle .ball {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #376281;
+}
+.profile-area .block .subtitle h4,
+.experience-area .block .subtitle h4 {
+  margin: 0px 3%;
+}
+.profile-area .block h5,
+.experience-area .block h5 {
+  margin-top: 1px;
+  color: #376281;
+  padding: 0 5%;
+}
+
+.skill-area {
+  background-color: #376281;
+  color: white;
+  padding: 1% 15%;
+}
+.skill-area .title {
+  justify-content: center;
+  margin: 1% 0 -3% 0;
+}
+.skill-area .title h2 {
+  margin-right: 5%;
+}
+.skill-area .title h3 {
+  color: white;
+}
+.skill-area p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
